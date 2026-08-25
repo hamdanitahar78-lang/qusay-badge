@@ -1,10 +1,19 @@
 {
+  "format": 1,
+  "id": "qusay-badge",
   "name": "Qusay Badge",
   "description": "♡ QUSAYCORE personal badge",
-  "authors": [
-    {
-      "name": "Qusay"
+  "author": "Qusay",
+  "version": "1.0.0",
+  "dependencies": {
+    "revenge.api": {
+      "version": ">=1"
+    },
+    "discord": {
+      "version": "*"
     }
-  ],
-  "main": "index.js"
+  },
+  "dist": {
+    "script": "index.js"
+  }
 }
