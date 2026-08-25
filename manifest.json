@@ -1,0 +1,10 @@
+{
+  "name": "Qusay Badge",
+  "description": "♡ QUSAYCORE personal badge",
+  "authors": [
+    {
+      "name": "Qusay"
+    }
+  ],
+  "main": "index.js"
+}
