@@ -1,9 +1,11 @@
+import { logger } from "@revenge-mod/plugin";
+
 export default {
   onLoad() {
-    console.log("♡ QUSAYCORE loaded!");
+    logger.log("♡ QUSAYCORE badge loaded!");
   },
 
   onUnload() {
-    console.log("♡ QUSAYCORE unloaded!");
+    logger.log("♡ QUSAYCORE badge unloaded!");
   }
 };
